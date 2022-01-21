@@ -1,0 +1,22 @@
+
+entity Serie {
+    nom String
+    dateHeureAjout Instant
+}
+
+entity Saison {
+    nom String
+}
+
+entity Episode {
+    nom String
+    duree Integer
+}
+
+relationship OneToMany {
+    Serie to Saison{serie}
+}
+
+relationship OneToMany {
+    Saison to Episode{saison}
+}
