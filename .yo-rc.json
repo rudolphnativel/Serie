@@ -42,7 +42,9 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "reactive": false,
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Serie", "Saison", "Episode"],
+    "lastLiquibaseTimestamp": 1642771739000
   },
   "git-provider": "GitHub",
   "git-company": "rudolphnativel",
